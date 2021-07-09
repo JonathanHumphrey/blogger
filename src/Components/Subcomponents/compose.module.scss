@@ -1,0 +1,18 @@
+.compose {
+	border: solid black;
+	margin: 2.5rem 5rem 5rem 5rem;
+	display: flex;
+	justify-content: center;
+	.textArea {
+		width: 75rem;
+		resize: none;
+		height: 10rem;
+		font-size: 2.5rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	input {
+		width: 7rem;
+	}
+}
