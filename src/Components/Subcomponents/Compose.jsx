@@ -7,15 +7,15 @@ export default function Compose() {
         <div className={scss['compose']}>
             <form>
                 <h3>Write a post!</h3>
-                <textArea
+                <textarea
                     className={scss['textArea']}
                     type='text'
                     maxLength='140'
                 >
-                </textArea>
+                </textarea>
                 <input
                     type='submit'
-                    value='Submit'
+                    value='Post!'
                 />
             </form>
         </div>

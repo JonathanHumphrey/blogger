@@ -1,0 +1,43 @@
+.container {
+	background-color: rgba(128, 128, 128, 0.733);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	.modal {
+		border: solid black;
+		width: 70rem;
+		height: 50rem;
+		position: fixed;
+		top: 20rem;
+		left: 60rem;
+		background-color: honeydew;
+		.modalHeader {
+			display: flex;
+			justify-content: center;
+			font-size: 4rem;
+			.modalOption {
+				cursor: pointer;
+				&:hover {
+					color: blue;
+				}
+			}
+			.closeBtn {
+				position: absolute;
+				cursor: pointer;
+				top: 0.5vh;
+				right: 0.25vw;
+				border-radius: 20px;
+				border: none;
+				padding: 10px;
+				font-size: 1.5rem;
+				text-align: center;
+				&:hover {
+					background-color: #2195f38f;
+				}
+			}
+		}
+	}
+}
